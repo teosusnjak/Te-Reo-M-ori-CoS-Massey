@@ -1,6 +1,6 @@
 ## README for Te Reo Māori Usage Analysis in College of Sciences
 
-This repository provides an analysis of the usage of Te Reo Māori across different units within the College of Sciences at Massey University. The research was funded by the College of Sciences' REaDI Iwi Fund and conducted by Teo Susnjak from the School of Mathematical and Computational Sciences (SMCS). The analysis aims to support the attainment of Mātauranga Māori aspirations within the College by examining the frequency and patterns of Te Reo Māori words in academic publications.
+This repository provides an analysis of the usage of Te Reo Māori across different units within the College of Sciences at Massey University. The research was funded by the College of Sciences' REaDI Iwi Fund and conducted by Teo Susnjak from the School of Mathematical, School of Built Environment (SBE) and Computational Sciences (SMCS). The analysis aims to support the attainment of Mātauranga Māori aspirations within the College by examining the frequency and patterns of Te Reo Māori words in academic publications.
 
 ### Project Overview
 
