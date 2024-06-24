@@ -12,13 +12,13 @@ The primary objective of this research is to understand the current state of Te 
 
 ### Preliminary Findings
 
-Two key visualisations shown here have been created from the initial dataset, which consists of approx 1500 research papers from 300 academics based at three schools within the College of Sciences: the School of Mathematical and Computational Sciences (SMCS), the School of Natural and Computational Sciences (SNS) and the School of Built Environment (SBE). These preliminary results highlight the trends in Te Reo Māori word usage across different units.
+Two key visualisations shown here have been created from the initial dataset, which consists of approx 1500 research papers from 300 academics based at three schools within the College of Sciences: the School of Mathematical and Computational Sciences (SMCS), the School of Natural Sciences (SNS) and the School of Built Environment (SBE). These preliminary results highlight the trends in Te Reo Māori word usage across different units.
 
 #### Figure 1: Māori Word Count Summary by Year and School
 
 ![Maori Word Count Summary by Year and School](words_by_school.png)
 
-This bar chart summarises the count of Māori words used in publications from 2012 to 2022. It compares the usage across three schools: SBE (School of  Built Environment ), SMCS (School of Mathematical and Computational Sciences), and SNS (School of Natural and Computational Sciences). The trends indicate varying levels of engagement with Te Reo Māori over the years, with a noticeable increase in recent years, especially in the SMCS and SNS.
+This bar chart summarises the count of Māori words used in publications from 2012 to 2022. It compares the usage across three schools: SBE (School of  Built Environment ), SMCS (School of Mathematical and Computational Sciences), and SNS (School of Natural Sciences). The trends indicate varying levels of engagement with Te Reo Māori over the years, with a noticeable increase in recent years, especially in the SBE and SNS.
 
 #### Figure 2: Most Frequent Māori Words
 
