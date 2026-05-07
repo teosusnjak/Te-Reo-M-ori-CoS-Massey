@@ -1,0 +1,4 @@
+﻿School,documents,phase1_instances,phase2_instances,removed_instances,total_words,mean_phase2_density_per_10k,median_phase2_density_per_10k,phase1_corpus_density_per_10k,phase2_corpus_density_per_10k,removed_percent
+SBE,422,5457,3084,2373,8661833,4.9257,2.7476,6.3001,3.5604,43.4854
+SMCS,471,4651,2856,1795,4748021,5.6866,3.3527,9.7957,6.0151,38.5939
+SNS,498,6661,4351,2310,4601209,11.1993,5.8358,14.4766,9.4562,34.6795

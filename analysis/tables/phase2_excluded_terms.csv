@@ -1,0 +1,485 @@
+﻿term,corpus_count,document_frequency,category,rationale
+ea,228,192,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pone,117,117,doi_or_journal_fragment,Occurs in PLOS DOI strings such as journal.pone.
+mau,114,112,author_or_dual_use_collision,Often appears as author initials/name rather than Maori usage.
+hou,90,83,author_or_dual_use_collision,Often author surname or split from householder.
+puri,90,75,author_or_dual_use_collision,Often author surname.
+ure,78,78,ocr_or_tokenisation_artifact,Commonly split from figure/capture/future.
+hao,75,67,author_or_dual_use_collision,Often author surname.
+ture,73,73,ocr_or_tokenisation_artifact,Commonly split from literature/future.
+ere,72,72,ocr_or_tokenisation_artifact,Commonly split from were/there.
+noti,71,56,ocr_or_tokenisation_artifact,Fragment of notified/notification.
+mana,69,54,dual_use_or_fragment,Frequently appears inside management/manager; requires context-aware validation.
+ine,66,63,ocr_or_tokenisation_artifact,Commonly split from line/online/inefficient.
+ao,66,62,short_dual_use_fragment,"Often acronym, Portuguese ending, or text fragment."
+tanaka,65,65,author_or_person_name,Primarily author surname in references.
+ara,63,51,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ito,60,58,author_or_person_name,Primarily author surname in references.
+ani,54,47,author_or_dual_use_collision,Often author surname/acronym or substring.
+ina,53,53,ocr_or_tokenisation_artifact,Commonly split from inactive/inability or DOI fragments.
+ata,52,51,ocr_or_tokenisation_artifact,Commonly split from data.
+niwa,48,37,institutional_acronym,Usually National Institute of Water and Atmospheric Research acronym.
+kuramoto,48,35,author_or_person_name,Kuramoto model / author name.
+pore,47,44,english_or_technical_collision,English technical term.
+mei,46,46,author_or_dual_use_collision,Mostly author surname or non-target token in sampled contexts.
+ome,44,43,ocr_or_tokenisation_artifact,Commonly split from become/outcome/some.
+moreno,43,43,author_or_person_name,Primarily author surname in references.
+akaike,43,42,author_or_person_name,Akaike information criterion / author name.
+aei,43,40,ocr_or_tokenisation_artifact,Short extraction or DOI fragment.
+ue,43,40,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mea,43,39,ocr_or_tokenisation_artifact,Commonly split from measure/mean.
+ree,38,38,ocr_or_tokenisation_artifact,Commonly split from three.
+romero,38,38,author_or_person_name,Primarily author surname in references.
+wai,38,34,author_or_place_fragment,Often author surname/fragment; place-name use requires context.
+kimura,37,37,author_or_person_name,Primarily author surname in references.
+kuo,37,37,author_or_person_name,Primarily author surname in references.
+hui,36,34,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+runge,36,32,author_or_person_name,Runge-Kutta method / author name.
+automata,36,28,english_or_technical_collision,Technical term in computer science.
+pii,35,35,doi_or_journal_fragment,Publisher article identifier fragment.
+niu,34,34,author_or_dual_use_collision,Mostly author surname in sampled contexts.
+pini,34,34,author_or_dual_use_collision,High-risk short name/collision; retained use would need manual context validation.
+mora,33,33,author_or_person_name,Primarily author/name collision in references.
+teo,33,33,author_or_person_name,Primarily author surname in references.
+eme,33,29,ocr_or_tokenisation_artifact,Commonly split from element/emergency or similar.
+ene,32,30,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tamura,31,31,author_or_person_name,Primarily author surname in references.
+epi,31,28,acronym_or_index,"Usually an acronym such as EPI, not Maori-language use."
+hira,30,30,author_or_person_name,Primarily author/name collision in references.
+ima,30,30,acronym_or_journal_abbreviation,Usually IMA or another abbreviation in references.
+whi,30,30,ocr_or_tokenisation_artifact,Commonly split from which/while.
+nakamura,29,29,author_or_person_name,Primarily author surname in references.
+anu,29,28,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nee,29,27,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rahouti,29,24,author_or_person_name,Primarily author name in references.
+ena,28,28,ocr_or_tokenisation_artifact,Short extraction fragment.
+iare,28,28,ocr_or_tokenisation_artifact,Joined/split mathematical text fragment.
+minima,28,28,english_or_technical_collision,Mathematical term.
+reneke,28,28,author_or_extraction_collision,High-risk repeated token in technical subcorpus; requires manual validation before use.
+herawati,28,26,author_or_person_name,Primarily author surname in references.
+ite,28,26,ocr_or_tokenisation_artifact,Commonly split from site/finite/white.
+kato,27,27,author_or_person_name,Primarily author surname in references.
+kema,27,27,author_or_extraction_collision,High-risk repeated token; requires manual validation before use.
+neri,27,27,author_or_name_or_acronym,High-risk author/name/acronym collision in sampled corpus.
+popu,27,27,ocr_or_tokenisation_artifact,Commonly split from population.
+ope,27,25,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+inoue,26,26,author_or_person_name,Primarily author surname in references.
+hea,26,25,ocr_or_tokenisation_artifact,Commonly split from heading/health or other words.
+opoku,26,19,author_or_person_name,Primarily author surname in references.
+uo,26,18,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mena,26,16,author_or_person_name,Primarily author/name collision in references.
+hane,25,25,ocr_or_tokenisation_artifact,Short extraction fragment.
+ame,25,25,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ute,25,25,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tohoku,25,24,non_nz_place_or_name,Japanese place/institution name in references.
+toa,25,24,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ato,25,24,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nge,24,24,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nare,24,23,ocr_or_tokenisation_artifact,Joined/split mathematical text fragment.
+rii,23,23,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iea,23,22,acronym_or_fragment,Acronym/fragment in technical text.
+ua,23,22,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ono,23,22,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nga,23,22,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nono,23,19,ocr_or_tokenisation_artifact,Short extraction fragment.
+nanopore,23,17,english_or_technical_collision,Sequencing technology term.
+pangenome,23,16,english_or_technical_collision,Genomics term.
+hoai,22,22,ocr_or_tokenisation_artifact,Likely joined/fragmented technical text.
+ano,22,22,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+moreira,22,21,author_or_person_name,Primarily author surname in references.
+ngowi,22,16,author_or_person_name,Primarily author surname in references.
+amore,21,21,english_or_tokenisation_collision,"Often English 'a more' or name collision, not validated Maori usage."
+wherea,21,21,ocr_or_tokenisation_artifact,Joined token from 'where A'.
+ime,21,21,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+amo,21,21,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kao,21,21,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ori,21,21,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ona,21,20,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nakano,20,20,author_or_person_name,Primarily author surname in references.
+neto,20,20,author_or_person_name,Primarily author surname in references.
+rami,20,20,author_or_name_collision,High-risk name collision in references.
+tapia,20,20,author_or_person_name,Primarily author surname in references.
+ete,20,20,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mani,20,18,author_or_tokenisation_collision,High-risk name/fragment collision.
+arora,19,19,author_or_person_name,Primarily author surname/name in references.
+natu,19,19,ocr_or_tokenisation_artifact,Commonly split from nature/natural or similar words.
+ake,19,19,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+merino,19,17,english_or_technical_collision,Breed/material term in English usage.
+arangi,18,18,author_or_extraction_collision,High-risk repeated token; requires manual validation before use.
+nakai,18,18,author_or_person_name,Primarily author surname in references.
+wou,18,18,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aro,18,18,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oke,18,18,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eae,18,18,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uri,18,17,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aia,18,17,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ature,17,17,ocr_or_tokenisation_artifact,Likely fragment of nature/feature/literature.
+humana,17,17,publisher_or_journal_name,Likely publisher/journal/name collision.
+irani,17,17,author_or_person_name,Primarily author surname/name in references.
+keane,17,17,author_or_person_name,Primarily author surname/name in references.
+repo,17,17,english_or_technical_collision,English technical shorthand/repository fragment.
+romano,17,17,author_or_person_name,Primarily author surname/name in references.
+uti,17,17,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+otu,17,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kumi,17,11,author_or_extraction_collision,High-risk repeated token; requires manual validation before use.
+engineeri,16,16,ocr_or_stemming_fragment,Fragment of engineering.
+initio,16,16,latin_or_technical_collision,Occurs in technical phrase ab initio.
+kuma,16,16,author_or_person_name,High-risk author/name collision.
+materi,16,16,ocr_or_tokenisation_artifact,Likely fragment of material/materials.
+naire,16,16,ocr_or_tokenisation_artifact,Likely fragment from ordinary English or names.
+reiterate,16,16,english_or_technical_collision,"English verb, not Maori-language use."
+huo,16,16,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hei,16,16,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+roa,16,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kitao,15,15,author_or_person_name,Primarily author surname in references.
+mari,15,15,author_or_name_collision,High-risk name/fragment collision.
+morokuma,15,15,author_or_person_name,Primarily author surname in references.
+nome,15,15,ocr_or_tokenisation_artifact,Likely fragment of genome/econometric or similar words.
+okamoto,15,15,author_or_person_name,Primarily author surname/name in references.
+parame,15,15,ocr_or_tokenisation_artifact,Likely fragment of parameter.
+ratiu,15,15,author_or_name_collision,High-risk name collision in technical subcorpus.
+tare,15,15,author_or_tokenisation_collision,High-risk short name/fragment collision.
+toone,15,15,author_or_person_name,Primarily author surname/name in references.
+ane,15,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ini,15,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+awa,15,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tae,15,15,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+karimi,15,14,author_or_person_name,Primarily author surname/name in references.
+monotone,15,14,english_or_technical_collision,English/mathematical term.
+pirie,15,14,author_or_person_name,Primarily author surname/name in references.
+pai,15,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+whe,15,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eea,15,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+emanate,14,14,english_or_technical_collision,"English verb, not Maori-language use."
+engi,14,14,ocr_or_tokenisation_artifact,Likely fragment of engineering/engineer.
+hume,14,14,author_or_person_name,Primarily author surname/name in references.
+kaneko,14,14,author_or_person_name,Primarily author surname/name in references.
+miao,14,14,author_or_person_name,Primarily author surname/name in references.
+nomura,14,14,author_or_person_name,Primarily author surname/name in references.
+ama,14,14,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+apa,14,14,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nui,14,14,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ota,14,14,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ria,14,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iia,14,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tio,14,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nimo,14,12,author_or_extraction_collision,High-risk repeated token; requires manual validation before use.
+tatiana,14,12,author_or_person_name,Primarily author/name in references.
+moa,14,12,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kitamura,13,13,author_or_person_name,Primarily author surname/name in references.
+koike,13,13,author_or_person_name,Primarily author surname/name in references.
+merapi,13,13,non_nz_place_or_name,"Indonesian volcano name, not Maori-language use."
+pati,13,13,author_or_tokenisation_collision,High-risk name/fragment collision.
+pote,13,13,author_or_tokenisation_collision,High-risk name/fragment collision.
+tota,13,13,ocr_or_tokenisation_artifact,Likely fragment of total or similar English text.
+wherei,13,13,ocr_or_tokenisation_artifact,Joined token from 'where I'.
+iee,13,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mee,13,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ume,13,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ote,13,13,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aare,13,12,ocr_or_tokenisation_artifact,Short extraction fragment from technical/English text.
+ikea,13,12,english_brand_or_name_collision,"Brand/name collision, not Maori-language use."
+materia,13,12,ocr_or_tokenisation_artifact,Likely fragment of material/materials.
+nakamoto,13,12,author_or_person_name,Primarily author surname/name in references.
+oni,13,12,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+imi,13,12,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+maa,13,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+reina,13,7,author_or_person_name,Primarily author/name collision in references.
+amiri,12,12,author_or_person_name,Primarily author surname/name in references.
+iterate,12,12,english_or_technical_collision,English technical verb.
+nawi,12,12,author_or_name_collision,High-risk name/fragment collision.
+renene,12,12,author_or_extraction_collision,High-risk repeated token; requires manual validation.
+rui,12,12,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+koo,12,12,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iai,12,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ika,12,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+akimoto,12,6,author_or_person_name,Primarily author surname/name in references.
+amari,11,11,author_or_person_name,Primarily author surname in references.
+roo,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nea,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tii,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wha,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eru,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oti,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iie,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uwe,11,11,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iiia,11,10,acronym_or_fragment,Acronym/fragment in technical text.
+uto,11,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+imine,11,9,ocr_or_tokenisation_artifact,Short extraction fragment.
+oraee,11,9,author_or_person_name,Primarily author surname/name in references.
+weka,11,7,software_or_acronym,Usually Waikato Environment for Knowledge Analysis software/acronym.
+amaro,10,10,author_or_person_name,Primarily author/name collision in references.
+wui,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ooi,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+umi,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aki,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eri,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+toi,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uoa,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iae,10,10,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wea,10,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kei,10,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+poa,10,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oai,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ipa,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ero,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eha,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uwa,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+taa,9,9,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pou,9,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ako,9,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tui,9,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kee,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kua,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nia,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hau,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ema,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+umu,8,8,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+poi,8,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uwu,8,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iki,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ino,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+peo,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mou,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aii,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āti,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+heo,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oru,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hue,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eui,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+onu,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ahu,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ioe,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+owo,7,7,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nao,7,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iou,7,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+unu,7,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mua,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+reo,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aai,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ewi,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kii,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iri,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eoi,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nai,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eee,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rau,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ohi,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aie,6,6,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aeo,5,5,ocr_or_tokenisation_artifact,Short extraction fragment.
+ike,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rou,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pio,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nou,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ohe,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rua,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+paa,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+amu,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+poo,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hoi,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oka,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+enu,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+reu,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ipi,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uta,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iwe,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oto,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+noa,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tou,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pua,5,5,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eti,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ura,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+teu,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tū,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wii,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tua,5,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kou,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nio,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eto,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wua,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hoe,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ahi,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ngi,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eiu,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kau,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aha,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uia,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pao,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+inu,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aee,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+meo,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nau,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aho,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ihi,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mie,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kui,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ewe,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+naa,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uoo,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aru,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hie,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iti,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tiu,4,4,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+imu,4,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hia,4,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iei,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uio,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aoa,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iru,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ngu,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uru,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+weo,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+opi,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eaa,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pau,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kea,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uhi,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mui,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pia,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+awo,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oma,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nue,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oea,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pui,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uai,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hio,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iaa,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iui,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eua,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pae,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iwo,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rie,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pā,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wā,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+omo,3,3,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iha,3,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+opo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+whu,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nua,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+heu,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oei,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wao,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+upo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iio,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kaa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aau,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eko,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oku,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uka,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kie,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uoe,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eke,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nii,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mii,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hae,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tuo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+umo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iuu,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+epo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uwo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+opa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uuu,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tei,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eii,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+owi,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+haa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eoo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aui,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oho,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iro,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iwa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nuo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tā,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aao,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aua,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+koe,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ooa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+noi,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+īto,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āte,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āua,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oha,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kī,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oko,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eka,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+noo,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+apu,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ewa,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nae,2,2,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oie,2,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+meu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eho,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aea,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uho,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+iau,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+etu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uea,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ioa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ipe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uki,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eue,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eou,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hoo,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+upa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+owa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ehi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eno,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tuu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uoi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eeo,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+awu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eeu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+riu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uhu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aoe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ahe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+eki,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oua,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ehu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+rū,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aoi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oio,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oeo,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wē,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ētā,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+noe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wiu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+epe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+omi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ātā,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hā,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+īhe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ōna,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āhi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ihe,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nāu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aku,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āoa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ōte,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wio,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tī,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ohu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+hoa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ruo,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+epu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+wae,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kiu,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+aoo,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oia,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+woa,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+uke,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+oae,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kāi,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+kē,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+arā,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+anō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+mō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+tō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+nō,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+āui,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+pū,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
+ōpū,1,1,short_fragment_or_highly_ambiguous_token,"Excluded by conservative Phase 2 rule for one-, two-, and three-character unvalidated tokens."
